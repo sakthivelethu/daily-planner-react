@@ -1,0 +1,68 @@
+DAILY PLANNER – UI DESIGN PROMPT (NO CODE)
+Design a peaceful, minimal daily planner web app UI focused on calm productivity and long-term consistency.
+Overall Feel
+Quiet, distraction-free, and soothing
+Feels like Notion, Apple Health, or a mindfulness app
+Designed for daily use without visual fatigue
+
+Color & Mood
+Soft light background (off-white or very light grey)
+White cards with subtle shadows
+Muted accent colors (soft blue, sage green, warm grey)
+No neon colors, no bright contrasts
+No gradients or flashy effects
+
+Typography
+Clean, modern sans-serif font
+Medium font weight
+Plenty of spacing between elements
+Text should feel breathable and calm
+
+Dashboard Page (Home)
+Grid layout (not a list)
+Each task shown as a card
+Cards contain:
+Simple icon (emoji or minimal symbol)
+Task name
+Subtle status text (e.g., “Completed today” or “Not done yet”)
+Cards have rounded corners and gentle hover elevation
+No loud animations
+Tasks to display:
+GCP Certification
+DevOps Practice
+Learn C#
+Unity
+Unreal Engine
+Gym Workout
+
+Task Detail Page
+Minimal layout
+Large task title at the top
+One calm checkbox to mark task as completed for today
+Soft text showing streak count (e.g., “Current streak: 5 days”)
+Simple back navigation
+
+Gym Page
+Clean sections with soft card containers
+Push-Ups Section:
+Title: “Push Ups – Target 100”
+Multiple number input fields
+Shows total completed and remaining count
+Feedback is text-based, not graphical
+Biceps Section:
+Three labeled rows:
+Set 1 → input
+Set 2 → input
+Set 3 → input
+Shoulder Section:
+Same three-set layout as biceps
+
+Interaction Style
+No pop-ups
+No alerts
+Feedback shown as calm text
+Everything should feel gentle and intentional
+
+Goal of the UI
+The interface should feel like a daily ritual, not a productivity dashboard. Something the user wants to open every day quietly and consistently. The app should be opened by log-In page as single user by username and password as   User -> Sakthi
+Pass-> Sakthi@123  The Page Loader Icon should be First letter of the Daily-planner which D. A ‘D’ Symbol should the loading icon.  It should be a full react project.
