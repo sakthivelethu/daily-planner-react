@@ -4,6 +4,8 @@ import path from "path";
 import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
 
 export default defineConfig({
+  root: path.resolve(import.meta.dirname, "client"),
+
   plugins: [
     react(),
     runtimeErrorOverlay(),
@@ -19,7 +21,10 @@ export default defineConfig({
         ]
       : []),
   ],
-  base: process.env.VITE_BASE_PATH || "/daily-planner-react",
+
+  // ✅ IMPORTANT: base MUST be "/" for Vercel
+  base: "/",
+
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "client", "src"),
@@ -27,11 +32,13 @@ export default defineConfig({
       "@assets": path.resolve(import.meta.dirname, "attached_assets"),
     },
   },
-  root: path.resolve(import.meta.dirname, "client"),
+
   build: {
-    outDir: path.resolve(import.meta.dirname, "dist/public"),
+    // ✅ IMPORTANT: Vercel expects "dist"
+    outDir: path.resolve(import.meta.dirname, "dist"),
     emptyOutDir: true,
   },
+
   server: {
     fs: {
       strict: true,
